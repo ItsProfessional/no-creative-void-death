@@ -1,0 +1,24 @@
+{
+  "schemaVersion": 1,
+  "id": "no-creative-void-death",
+  "version": "${version}",
+  "name": "No Creative Void Death",
+  "description": "Disables the damage in the void if the player is in creative mode.",
+  "authors": [
+    "ItsProfessional"
+  ],
+  "contact": {
+    "repo": "https://github.com/ItsProfessional/no-creative-void-death"
+  },
+  "license": "GPL-3.0",
+  "icon": "assets/no-creative-void-death/icon.png",
+  "environment": "*",
+  "mixins": [
+    "no-creative-void-death.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=${loader_version}",
+    "fabric": "*",
+    "minecraft": "${minecraft_version}"
+  }
+}
